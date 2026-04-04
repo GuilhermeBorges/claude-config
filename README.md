@@ -17,7 +17,7 @@ Personal Claude Code configuration synced across machines.
 |---|---|---|
 | `permissions.defaultMode` | `auto` | Auto mode on by default — Claude approves safe tool calls without prompting |
 | `effortLevel` | `high` | Always uses maximum thinking effort |
-| `permissions.allow` | git, ls, bun | Common commands auto-approved (git, ls, bun run/install/publish, bunx biome/tsup) |
+| `permissions.allow` | git, ls, bun, WebFetch | Common commands auto-approved (git, ls, bun run/install/publish, bunx biome/tsup, web fetching) |
 
 ## Hooks
 
