@@ -11,7 +11,9 @@
     }
   },
   "effortLevel": "high",
+  "skipAutoPermissionPrompt": true,
   "permissions": {
+    "defaultMode": "auto",
     "allow": [
       "Bash(git status*)",
       "Bash(git log*)",
