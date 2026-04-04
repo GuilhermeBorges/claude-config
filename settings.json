@@ -26,13 +26,29 @@
       "Bash(ls*)",
       "Bash(bun install*)",
       "Bash(bun run build*)",
-      "Bash(bun run test*)"
+      "Bash(bun run test*)",
+      "Bash(bun run lint*)",
+      "Bash(bun run check*)",
+      "Bash(bun run dev*)",
+      "Bash(bunx biome*)",
+      "Bash(bunx tsup*)",
+      "Bash(bun publish*)"
     ]
   },
   "env": {
     "WORKTREE_DIR": ".worktrees"
   },
   "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "osascript -e 'display notification \"Task completed\" with title \"Claude Code\"' 2>/dev/null || true"
+          }
+        ]
+      }
+    ],
     "PreCompact": [
       {
         "hooks": [
