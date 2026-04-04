@@ -46,8 +46,11 @@ Skip any group with no findings. Don't manufacture suggestions — only flag thi
 
 ---
 
-## After presenting
+## Flow — always ask before applying
 
-Ask which suggestions to apply. For each approved one, execute immediately:
-- Edit the relevant file
-- Commit if inside a tracked repo (`~/.claude` or the project repo)
+1. Present ALL suggestions grouped by destination
+2. Ask: "Which of these would you like to apply? (list numbers or 'all')"
+3. Wait for explicit confirmation
+4. Apply only the approved ones — edit files, then commit if the destination is a tracked repo (`~/.claude` or the project repo)
+
+Never apply any change without the user selecting it first.

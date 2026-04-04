@@ -11,6 +11,16 @@ Personal Claude Code configuration synced across machines.
 | `commands/` | Custom slash commands |
 | `paul-framework/` | PAUL project management framework |
 
+## Custom commands
+
+### `/session-retrospective`
+
+Run at the end of any session to extract learnings from the conversation.
+
+Analyzes the conversation for corrections, friction points, missing rules, and automation opportunities — then suggests additions to `CLAUDE.md` (global or project), `settings.json` hooks, new skills, and memory.
+
+Always presents all suggestions first and asks for approval before applying anything.
+
 ## Setup on a new machine
 
 ```bash
