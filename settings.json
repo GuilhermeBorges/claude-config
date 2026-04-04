@@ -32,7 +32,8 @@
       "Bash(bun run dev*)",
       "Bash(bunx biome*)",
       "Bash(bunx tsup*)",
-      "Bash(bun publish*)"
+      "Bash(bun publish*)",
+      "WebFetch"
     ]
   },
   "env": {
