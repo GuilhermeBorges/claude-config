@@ -19,6 +19,14 @@ Personal Claude Code configuration synced across machines.
 | `effortLevel` | `high` | Always uses maximum thinking effort |
 | `permissions.allow` | git, ls, bun | Common commands auto-approved |
 
+## Hooks
+
+### `PreCompact`
+
+Fires before every context compaction (manual or auto). Displays a `systemMessage` in the UI reminding you to flag anything important to preserve in the summary before Claude continues.
+
+---
+
 ## Custom commands
 
 ### `/session-retrospective`
