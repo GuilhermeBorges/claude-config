@@ -17,9 +17,13 @@ Personal Claude Code configuration synced across machines.
 |---|---|---|
 | `permissions.defaultMode` | `auto` | Auto mode on by default — Claude approves safe tool calls without prompting |
 | `effortLevel` | `high` | Always uses maximum thinking effort |
-| `permissions.allow` | git, ls, bun | Common commands auto-approved |
+| `permissions.allow` | git, ls, bun | Common commands auto-approved (git, ls, bun run/install/publish, bunx biome/tsup) |
 
 ## Hooks
+
+### `Stop`
+
+Fires when Claude finishes responding. Shows a macOS native notification: **"Task completed"**. Useful for long-running tasks when you're away from the window.
 
 ### `PreCompact`
 
