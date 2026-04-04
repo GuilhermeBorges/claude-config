@@ -31,5 +31,18 @@
   },
   "env": {
     "WORKTREE_DIR": ".worktrees"
+  },
+  "hooks": {
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"systemMessage\": \"Compaction starting — if there is anything important to preserve in the summary, mention it in your next message.\"}'",
+            "statusMessage": "Notifying before compact..."
+          }
+        ]
+      }
+    ]
   }
 }
