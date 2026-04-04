@@ -11,6 +11,14 @@ Personal Claude Code configuration synced across machines.
 | `commands/` | Custom slash commands |
 | `paul-framework/` | PAUL project management framework |
 
+## Settings highlights
+
+| Setting | Value | Effect |
+|---|---|---|
+| `permissions.defaultMode` | `auto` | Auto mode on by default — Claude approves safe tool calls without prompting |
+| `effortLevel` | `high` | Always uses maximum thinking effort |
+| `permissions.allow` | git, ls, bun | Common commands auto-approved |
+
 ## Custom commands
 
 ### `/session-retrospective`
