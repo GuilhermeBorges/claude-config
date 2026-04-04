@@ -1,0 +1,18 @@
+# Runtime & cache
+backups/
+cache/
+downloads/
+file-history/
+history.jsonl
+plans/
+session-env/
+sessions/
+shell-snapshots/
+tasks/
+telemetry/
+
+# Plugins cache (reinstall per machine)
+plugins/
+
+# Project memories (path-specific per machine)
+projects/
