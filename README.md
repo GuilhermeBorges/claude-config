@@ -9,7 +9,7 @@ Personal Claude Code configuration synced across machines.
 | `settings.json` | Permissions, plugins, effort level |
 | `CLAUDE.md` | Global instructions for all projects |
 | `commands/` | Custom slash commands |
-| `paul-framework/` | PAUL project management framework |
+| `memory/` | Persistent memory across sessions (per project) |
 
 ## Settings highlights
 
