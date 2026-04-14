@@ -36,6 +36,10 @@
       "WebFetch"
     ]
   },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
   "env": {
     "WORKTREE_DIR": ".worktrees"
   },
